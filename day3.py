@@ -12,6 +12,7 @@ for num in numbers:
     if num % 2 == 0:
         print(num)
 
-        numbers = [1, 5, 8, 12, 3]
+        
+numbers = [1, 5, 8, 12, 3]
 numbers.reverse()
 print(numbers)
