@@ -1,0 +1,4 @@
+Name: Sinchu
+Age: 22
+Course: Python
+City: Kerala
