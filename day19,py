@@ -1,0 +1,22 @@
+import numpy as np
+# Arithmetic Practice
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print("Addition:", a + b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+# Scalar Operations
+a = np.array([1, 2, 3])
+print("Add constant:", a + 10)
+print("Multiply:", a * 2)
+print("Subtract constant:", a - 1)
+
+# Math Functions
+arr = np.array([1, 4, 9])
+print("Square root:", np.sqrt(arr)) 
+print("Log values:", np.log(arr))
+
+arr2 = np.array([1.2, 2.7, 3.5])
+print("Rounded:", np.round(arr2))
