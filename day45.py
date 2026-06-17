@@ -3,9 +3,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 print("Model Loaded Successfully")
 
-from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
 
 results = model("C:/Users/dell/Downloads/dog.jpg", save=True)
 
